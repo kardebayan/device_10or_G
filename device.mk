@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
     audio.usb.default
 
 PRODUCT_PACKAGES += \
-    libaacwrapper \
     libaudio-resampler \
     libhfp:32 \
     libqcomvisualizer \
