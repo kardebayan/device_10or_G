@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libstdc++_vendor
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
