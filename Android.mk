@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2021 The LineageOS Project
+# Copyright (C) 2017-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -104,15 +104,5 @@ $(WCNSS_MAC_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf /mnt/vendor/persist/$(notdir $@) $@
 
 ALL_DEFAULT_INSTALLED_MODULES += $(WCNSS_INI_SYMLINK) $(WCNSS_BIN_SYMLINK) $(WCNSS_DAT_SYMLINK) $(WCNSS_MAC_SYMLINK)
-
-CNE_LIBS := libvndfwk_detect_jni.qti.so
-CNE_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR)/app/CneApp/lib/arm64/,$(notdir $(CNE_LIBS)))
-$(CNE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "CneApp lib link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /vendor/lib64/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(CNE_SYMLINKS)
 
 endif
