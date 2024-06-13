@@ -111,7 +111,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5 \
     android.hardware.camera.provider@2.4 \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service
+    android.hardware.camera.provider@2.4-service \
+    android.hardware.camera.provider@2.5
 
 PRODUCT_PACKAGES += \
     camera.msm8953 \
@@ -164,6 +165,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.G
 
+PRODUCT_PACKAGES += \
+    liblzma.vendor
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
@@ -204,6 +208,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    libion.vendor
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -305,7 +312,8 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
 
 PRODUCT_PACKAGES += \
-    libavservices_minijail.vendor
+    libavservices_minijail.vendor \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -327,12 +335,20 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+PRODUCT_PACKAGES += \
+    libnetutils.vendor \
+    libsqlite.vendor \
+    libssl.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
+
+PRODUCT_PACKAGES += \
+    libpower.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
