@@ -409,5 +409,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_cfg.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
+# WiFi firmware symlinks
+PRODUCT_PACKAGES += \
+    firmware_wcnss_qcom_cfg.bin_symlink \
+    firmware_wcnss_qcom_wlan_nv.bin_symlink \
+    firmware_wcnss_wlan_dictionary.dat_symlink \
+    firmware_wlan_mac.bin_symlink
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/10or/G/G-vendor.mk)
