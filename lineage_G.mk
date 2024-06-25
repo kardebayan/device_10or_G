@@ -11,6 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Inherit from G device
+AB_OTA_UPDATER := false
 $(call inherit-product, device/10or/G/device.mk)
 
 # Inherit some common LineageOS stuff
