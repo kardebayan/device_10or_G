@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2023 The LineageOS Project
+# Copyright (C) 2017-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -171,6 +171,8 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_qcwcn
+TARGET_USES_QCOM_WCNSS_QMI := true
+TARGET_WCNSS_QMI_INCLUDE_DIR := $(DEVICE_PATH)/configs/wifi/include
 WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
