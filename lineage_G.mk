@@ -27,7 +27,7 @@ PRODUCT_MODEL := 10.or G
 
 PRODUCT_GMS_CLIENTID_BASE := android-huaqin
 TARGET_VENDOR := 10.or
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="G-user 8.1.0 OPM1.171019.019 10or_G_V1_0_82 release-keys"
 
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := 10or/G/G:8.1.0/OPM1.171019.019/10or_G_V1_0_82:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="G-user 8.1.0 OPM1.171019.019 10or_G_V1_0_82 release-keys" \
+    BuildFingerprint=10or/G/G:8.1.0/OPM1.171019.019/10or_G_V1_0_82:user/release-keys
