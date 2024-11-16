@@ -160,7 +160,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.G
+    android.hardware.biometrics.fingerprint@2.1-service.G \
+    vendor.goodix.hardware.fingerprint@1.0.vendor
 
 PRODUCT_PACKAGES += \
     liblzma.vendor
