@@ -55,9 +55,6 @@ TARGET_TS_MAKEUP := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
-TARGET_USES_ION := true
-TARGET_USES_GRALLOC1 := true
-TARGET_USES_HWC2 := true
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
@@ -77,6 +74,9 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     vendor/lineage/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
+# Media
+TARGET_USES_ION := true
 
 # Partitions
 BOARD_USES_METADATA_PARTITION := true
