@@ -591,16 +591,6 @@ vendor/lib/libsmwrapper.so|efed6475b26cafc15fed591a9aaa68b38cf6a37b
 # Media - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
 vendor/etc/seccomp_policy/mediacodec.policy|f1097f8e67ef20de89176cf2e9c4f5c91cb77897
 vendor/etc/seccomp_policy/mediaextractor.policy|4234a844e9b1aef37397c8cfbd19566966ecd622
-vendor/lib/libOmxAacDec.so|0b86603691cb574700e9a5eb105bd20ed0d3531d
-vendor/lib/libOmxAmrwbplusDec.so|3200103c63b670b66c5ce7498281b8ff428929b9
-vendor/lib/libOmxApeDec.so|ad9ee27ade3c5aa27d406b6208c60aefc6a07c68
-vendor/lib/libOmxApeDecSw.so|076e4092433cf2422c71594c7f4a418f32408f56
-vendor/lib/libOmxDsdDec.so|b8697801e414e51ea488505bb4b94567e882585d
-vendor/lib/libOmxEvrcDec.so|99202c934d1fdd1e428527019b7dc92dde40edc6
-vendor/lib/libOmxG711Dec.so|2c7bbd69d38c5a9edd5cc159d754d1f1909e503b
-vendor/lib/libOmxQcelp13Dec.so|4424762bcf639284112395b4c9d63cb58c799638
-vendor/lib/libOmxVpp.so|2785621219cd2c70af4d953955bb1aea860f8cb8
-vendor/lib/libOmxWmaDec.so|64cd394b68d131e7e9fe1a4d525a37faac415e59
 vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
 vendor/lib/libvpplibrary.so|125902f654caf28ab2a4174a88358e676ef396ec
 vendor/lib/libvqzip.so|f85628ea634df1c31d69380d960ad7ea3396e7b2
