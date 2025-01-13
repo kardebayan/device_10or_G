@@ -271,6 +271,11 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Partitions
+PRODUCT_PACKAGES += \
+    vendor_dsp_mountpoint \
+    vendor_firmware_mnt_mountpoint
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0.vendor
