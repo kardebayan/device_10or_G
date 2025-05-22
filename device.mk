@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2023 The LineageOS Project
+# Copyright (C) 2017-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -400,6 +400,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-ctrl \
     libwpa_client \
     hostapd \
+    wcnss_service \
     wificond \
     WifiOverlay \
     wpa_supplicant \
