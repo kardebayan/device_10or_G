@@ -599,7 +599,6 @@ vendor/lib/libOmxDsdDec.so|b8697801e414e51ea488505bb4b94567e882585d
 vendor/lib/libOmxEvrcDec.so|99202c934d1fdd1e428527019b7dc92dde40edc6
 vendor/lib/libOmxG711Dec.so|2c7bbd69d38c5a9edd5cc159d754d1f1909e503b
 vendor/lib/libOmxQcelp13Dec.so|4424762bcf639284112395b4c9d63cb58c799638
-vendor/lib/libOmxVideoDSMode.so|71c4f23de93e91931c077ed511301185152422da
 vendor/lib/libOmxVpp.so|2785621219cd2c70af4d953955bb1aea860f8cb8
 vendor/lib/libOmxWmaDec.so|64cd394b68d131e7e9fe1a4d525a37faac415e59
 vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
@@ -642,7 +641,6 @@ vendor/lib64/libdiag.so|174ff3f940288d2d1503230465dfe917ab9d155b
 etc/permissions/privapp-permissions-qti.xml|937752129fb20114d4c36f251ee4d2571132990c
 etc/sysconfig/qti_whitelist.xml|4b32a1f25aad9ba025d79ad3a3a7c51d02767fbf
 vendor/etc/qmi_fw.conf|7aa8186a05b3e1ac6ce556bb6e9ae613df0e82c1
-vendor/lib/libdsi_netctrl.so|ea451bc3c9171ee2c6b475a876b52e9706541168
 vendor/lib/libdsutils.so|60135d6d64ecba72fa0eb637a434578290beaaff
 vendor/lib/libidl.so|dc8d161c035f70e7e6c55461b0238fbe916c5a7d
 vendor/lib/libpdmapper.so|5cb456461d7c614dba30ea23711b506d44800725
