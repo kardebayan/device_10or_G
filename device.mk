@@ -393,10 +393,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
 
-# VNDK
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/v32hidlbase.so
-
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \

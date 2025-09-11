@@ -48,8 +48,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
     'vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so': blob_fixup()
         .remove_needed('libprotobuf-cpp-lite.so'),
-    'vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so': blob_fixup()
-        .regex_replace(r'libhidlbase.so', r'v32hidlbase.so'),
     ('vendor/lib64/libgf_algo.so', 'vendor/lib64/libgf_ca.so', 'vendor/lib64/libgf_hal.so'): blob_fixup()
         .remove_needed('libstdc++.so'),
 }
