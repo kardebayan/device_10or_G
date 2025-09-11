@@ -79,7 +79,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|7cdd376b08b8571e51674e0e61
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
 
 # Camera
-lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
+system/lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
 vendor/bin/remosaic_daemon
 vendor/lib/libAltek_AF.so
 vendor/lib/libHAFIAFalSDE1.so
@@ -476,9 +476,9 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|feee131f714ed9
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|a8da68e62a722ddd2bd9d5fa65ba887e3128f385
 
 # Fingerprint
-lib64/libgf_algo.so:vendor/lib64/libgf_algo.so
-lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
-lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
+system/lib64/libgf_algo.so:vendor/lib64/libgf_algo.so
+system/lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
+system/lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
 
 # Gatekeeper - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/lib64/hw/gatekeeper.msm8953.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2
