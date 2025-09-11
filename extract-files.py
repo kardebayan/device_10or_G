@@ -44,7 +44,7 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    ('vendor/lib/libubifocus.so', 'vendor/lib/libHAFIAFalSDE1.so', 'vendor/lib/libtrueportrait.so', 'vendor/lib/libmmcamera_hdr_gb_lib.so', 'vendor/lib/libAltek_AF.so', 'vendor/lib/libts_detected_face_hal.so', 'vendor/lib/libseemore.so', 'vendor/lib/libIQM_OTP_Correction.so', 'vendor/lib/libfcell.so', 'vendor/lib/libts_face_beautify_hal.so', 'vendor/lib/libalCMotion.so', 'vendor/lib/libchromaflash.so', 'vendor/lib/liboptizoom.so', 'vendor/lib/libIAFalSDE1.so', 'vendor/lib/libIQ_Match_Lib.so'): blob_fixup()
+    ('vendor/lib/libubifocus.so', 'vendor/lib/libHAFIAFalSDE1.so', 'vendor/lib/libtrueportrait.so', 'vendor/lib/libmmcamera_hdr_gb_lib.so', 'vendor/lib/libAltek_AF.so', 'vendor/lib/libts_detected_face_hal.so', 'vendor/lib/libseemore.so', 'vendor/lib/libIQM_OTP_Correction.so', 'vendor/lib/libfcell.so', 'vendor/lib/libts_face_beautify_hal.so', 'vendor/lib/libalCMotion.so', 'vendor/lib/libchromaflash.so', 'vendor/lib/liboptizoom.so', 'vendor/lib/libIAFalSDE1.so', 'vendor/lib/libIQ_Match_Lib.so', 'vendor/lib64/libremosaiclib.so'): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
     'vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so': blob_fixup()
         .remove_needed('libprotobuf-cpp-lite.so'),
