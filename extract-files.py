@@ -33,6 +33,16 @@ namespace_imports = [
     'vendor/qcom/opensource/display',
 ]
 
+def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
+    return f'{lib}_{partition}' if partition == 'vendor' else None
+lib_fixups: lib_fixups_user_type = {
+    **lib_fixups,
+    (
+        'com.qualcomm.qti.dpm.api@1.0',
+        'vendor.qti.imsrtpservice@3.0',
+    ): lib_fixup_vendor_suffix,
+}
+
 blob_fixups: blob_fixups_user_type = {
     ('vendor/lib/libubifocus.so', 'vendor/lib/libHAFIAFalSDE1.so', 'vendor/lib/libtrueportrait.so', 'vendor/lib/libmmcamera_hdr_gb_lib.so', 'vendor/lib/libAltek_AF.so', 'vendor/lib/libts_detected_face_hal.so', 'vendor/lib/libseemore.so', 'vendor/lib/libIQM_OTP_Correction.so', 'vendor/lib/libfcell.so', 'vendor/lib/libts_face_beautify_hal.so', 'vendor/lib/libalCMotion.so', 'vendor/lib/libchromaflash.so', 'vendor/lib/liboptizoom.so', 'vendor/lib/libIAFalSDE1.so', 'vendor/lib/libIQ_Match_Lib.so'): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
